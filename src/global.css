@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #29292e;
+}
+
+body, input, button, textarea {
+    font: 400 16px 'Roboto', sans-serif;
+}
+
+@layer components {
+    .question {
+        @apply bg-[#fefefe] rounded-lg shadow-lg p-6 mt-6 sm:mt-2;
+    }
+
+    .answered {
+        @apply bg-[#DBDCDD];
+    }
+
+    .highlighted {
+        @apply bg-[#F4F8FF] border-2 border-solid border-[#835AFD];
+    }
+}
