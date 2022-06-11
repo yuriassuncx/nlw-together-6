@@ -1,6 +1,7 @@
 # LetMeAsk
 
 <p align="center">Projeto desenvolvido conforme a 6º edição da NLW.</p>
+https://nlw-together-6.vercel.app/
 
 # Tecnologias Utilizadas
 
